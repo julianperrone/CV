@@ -1,0 +1,88 @@
+/*Configuracion de grilla*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*Secciones*/
+body{
+    max-width: 100%;
+    margin: 2px;   
+}
+header{
+    width: auto;
+    margin: 1px;
+    align-content: center;
+    align-items: center;
+    border: solid 5px black;
+}
+aside{
+    margin: 1px;
+    align-content: center;
+    border: 1px #7F7F7F dotted;
+}
+section{
+    display: block;
+}
+div.info-block{
+    margin: 1px;
+    max-width: 100%;
+    display: flex;
+    border-bottom: dotted 1px black;
+}
+
+
+/*Elementos*/
+h1{
+    text-align: center;
+    align-self: center;
+    font-family: Arial;
+    font-size: 24px;
+}
+
+h3{
+    margin: 3px;
+    text-align: center;
+    align-self: center;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-decoration: underline;
+    color: #7F7F7F;
+}
+
+a#top-menu{
+    display: block;
+    margin: 2px;
+    align-self: center;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+p.category{
+    width: 50%;
+    margin-left: 3px;
+    margin-right: 10px;
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+}
+p.info{
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 3px;
+    text-align: right;
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    
+}
