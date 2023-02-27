@@ -10,11 +10,12 @@
     <meta property="og:image" content="(image)" />
     <meta property="og:description" content="Meta Description" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
-
+    <link rel="stylesheet" type="text/css" href="css/mediaquerys.css" />
 </head>
 <body>
     <header>
         <h1>Mi Curriculum Vitae</h1>
+        <button type="button" id="darkmode">Modo oscuro</button>
     </header>
 
     <aside class="left-section">
@@ -155,7 +156,7 @@
             </div>
         </section>
         <section id="form">
-            <form action="" method="get">
+            <form>
                 <ul>
                     <li>
                         <label for="name">Nombre:</label>
@@ -169,7 +170,7 @@
                         <label for="message">Mensaje:</label>
                         <textarea id="message" name="msg">Mensaje</textarea>
                     </li>
-                    <button onclick=send(nombre,correo,mensaje) id="send">Enviar</button>
+                    <button onclick=printform() type="button" id="send">Enviar</button>
                 </ul>
             </form>
             <h3>Informacion de Formulario</h3>
