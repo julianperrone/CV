@@ -31,6 +31,7 @@ aside{
 }
 section{
     display: block;
+    margin-top: 30px;
 }
 div.info-block{
     margin: 1px;
@@ -43,8 +44,8 @@ div.exp-block{
     margin: 2px;
     border: 1px solid black;
     padding: 2px;
-
 }
+
 footer{
     margin: 1px;
     padding: 5px;
