@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ar">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -152,6 +152,35 @@
             </div>
             <div class="info-block">
                 <p class="category">LinkedIn: </p> <p class="info"><a href="https://www.linkedin.com">Click aqui</a></p>
+            </div>
+        </section>
+        <section id="form">
+            <form action="" method="get">
+                <ul>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name"/>
+                    </li>
+                    <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="email" name="email" />
+                    </li>
+                    <li>
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="msg">Mensaje</textarea>
+                    </li>
+                    <button onclick=send(nombre,correo,mensaje) id="send">Enviar</button>
+                </ul>
+            </form>
+            <h3>Informacion de Formulario</h3>
+            <div class="info-block">
+                <p class="category">Nombre: </p> <p class="info" id="nameform"></p>
+            </div>
+            <div class="info-block">
+                <p class="category">E-Mail: </p> <p class="info" id="emailform"></p>
+            </div>
+            <div class="info-block"> 
+                <p class="category">Mensaje: </p> <p class="info" id="msgform"></p>
             </div>
         </section>
     </main>
