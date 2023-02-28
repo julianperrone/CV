@@ -25,7 +25,8 @@
         <a id="top-menu" href="#exp-lab"> Experiencia Laboral </a>
         <a id="top-menu" href="#edu"> Educacion </a>
         <a id="top-menu" href="#aptitudes"> Aptitudes </a>
-        <a id="top-menu" href="#contacto"> Info de Contacto</a>
+        <a id="top-menu" href="#contacto"> Info de Contacto </a>
+        <a id="top-menu" href="#form"> Formulario de Contacto </a>
     </aside>
 
     <main>
@@ -155,6 +156,7 @@
             </div>
         </section>
         <section id="form">
+            <h3>Formulario de Contacto</h3>
             <!--Este formulario no envia informacion, ya que no hay a donde enviarla. por lo que simplemente muestra el contenido ingresado en la parte inferior del mismo, los campos se completan automaticamente despues de presionar el boton y que una alerta se muestre diciendo lo que va a pasar-->
             <form>
                 <ul>
@@ -170,10 +172,11 @@
                         <label for="message">Mensaje:</label>
                         <textarea id="message" name="msg">Mensaje</textarea>
                     </div>
+                    <!--Este es el boton que llama la funcion "printform()" cuando es clickeado para mostrar la informacion ingresada en el formulario en la siguiente seccion-->
                     <button onclick=printform() type="button" id="send">Enviar</button>
                 </ul>
             </form>
-            <h3>Informacion de Formulario</h3>
+            <h3>Informacion de Formulario enviada</h3>
             <!--La informacion ingresada en el formulario va a aparecer en esta seccion luego de que se haya hecho click en el boton de "enviar"-->
             <div class="info-block">
                 <p class="category">Nombre: </p> <p class="info" id="nameform"></p>
