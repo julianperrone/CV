@@ -154,3 +154,10 @@ button{
     border-radius: 4px;
     cursor: pointer;
 }
+li{
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+}
+
